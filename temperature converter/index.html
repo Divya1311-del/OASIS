@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+    <div class="icons"><h5>9:50</h5>
+        <div class="images">
+    <img src="img/network.png" alt="network">
+    <img src="img/wifi.png" alt="wifi">
+    <img src="img/charging.png" alt="charging"></div>
+    </div>
+    <div class="temperature-converter"><h1 class="title">Temperature Converter</h1>
+    <div class="degree-type">
+        <div class="degree-field">
+            <label for="degree">Degrees</label>
+            <input type="number" required="" name="degree" id="degree"> 
+        </div>
+        <div class="temp-field"> <label for="temp-type">Type</label><select name="temperatures" id="temp_type" autocomplete="on">
+            <option id="fahrenheit" value="fahrenheit">Fohrenheit</option>
+            <option id="kelvin" value="kelvin">Kelvin</option></select></div>
+        </div>
+        <div class="result"><span class="result-heading">Result(Celsius)</span>
+        <h2 class="celsius-value" id="celsius"></h2></div><button id="convertbtn">Convert</button>
+
+</div></div>
+
+</body>
+</html>
